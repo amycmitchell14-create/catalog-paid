@@ -25,3 +25,15 @@ items:
     tags: ["PM steps", "PM leadership"]
     access: "paid"
     status: "current"
+
+  - id: standard-offers-learning-path
+    title: "Standard Offer Learning Path"
+    filename: "Standard Offer Learning Path.pdf"
+    file: "content/Standard Offer Learning Path.pdf"
+    path: "content/Standard Offer Learning Path.pdf"
+    type: "Learning Path"
+    version: "1.0"
+    description: "Learning path to define and grow your offer"
+    tags: ["learning path", "offer definition", "PM leadership"]
+    access: "paid"
+    status: "current"
