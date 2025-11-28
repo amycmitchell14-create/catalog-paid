@@ -20,7 +20,7 @@ items:
     file: "content/PM urgency checklist.pdf"
     path: "content/PM urgency checklist.pdf"
     type: "Quick Start"
-    version: "1.0"
+    version: "1.1"
     description: "Steps to handle sudden priority shifts"
     tags: ["PM steps", "PM leadership"]
     access: "paid"
