@@ -120,7 +120,7 @@ def main(argv: list[str] | None = None) -> int:
         p.write_text(md, encoding="utf-8")
         print(f"Wrote Markdown to {p}")
     else:
-        index_path = public_dir / "index.md"
+        index_path = pathlib.Path("index.md")
         index_path.write_text(md, encoding="utf-8")
         print(f"Wrote Markdown to {index_path}")
 
