@@ -18,7 +18,7 @@ Learning path to define and grow your offer
 
 **Tags:** learning path, offer definition, PM leadership
 
-**File:** [Standard Offer Learning Path.pdf](content/Standard Offer Learning Path.pdf)
+**File:** [Standard Offer Learning Path.pdf](content/std offers paid.pdf)
 
 ### 📝 Quick Starts
 
