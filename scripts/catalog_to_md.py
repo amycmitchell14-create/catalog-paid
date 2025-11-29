@@ -36,7 +36,11 @@ def render_item_md(item):
     else:
         lines.append(f"- {title}")
 
-    # Collect metadata
+    # Description
+    if item.get("description"):
+        lines.append(f"  *{item['description']}*")
+
+    # Metadata
     meta = []
     if item.get("type"):
         meta.append(f"**Type:** {item['type']}")
@@ -57,7 +61,7 @@ def render_item_md(item):
         lines.append(f"  **Tags:** {tags_line}")
 
     # File/path link
-    paths = item.get("file") or item.get("path") or item.get("filename")
+    paths = item.get("file") or item.get("path")
     filename = item.get("filename") or "Download"
     if paths:
         lines.append(f"  **File:** [{filename}]({paths})")
