@@ -15,15 +15,14 @@ default_item:
 
 items:
   - id: Product Manager Resume Checklist
-    title: "Product Manager Resume Checklist" 
+    title: "Product Manager Resume Checklist"
     filename: "Product Manager Resume Checklist.pdf"
     file: "content/Product Manager Resume Checklist.pdf"
     type: quick-start
     version: "1.0"
     description: "Checklist to optimize your PM resume"
-    tags: ["resume", "job search", "PM career"] 
+    tags: ["resume", "job search", "PM career"]
     access: "free"
-    link: https://amycmitchell14-create.github.io/catalog-paid/content/Product%20Manager%20Resume%20Checklist.pdf
     status: "current"
   - id: pm-urgency-checklist
     title: "PM Urgency Checklist"
