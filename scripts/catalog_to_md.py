@@ -31,14 +31,11 @@ def render_item_md(item):
     # Auto-generate GitHub Pages link for free items if file is present
     if item.get("access") == "free":
         if item.get("file"):
-            # Replace spaces with %20 for URL safety
-            safe_path = item["file"].replace(" ", "%20")
-            # Adjust this base URL to match your repo's Pages URL
+            safe_path = str(item["file"]).replace(" ", "%20")
             base_url = "https://amycmitchell14-create.github.io/catalog-paid/"
             link = base_url + safe_path
         lines.append(f"- [{title}]({link})")
     elif item.get("access") == "paid":
-        # Paid items use the link provided (Google Drive, etc.)
         lines.append(f"- [{title}]({link}) 🔒")
     else:
         lines.append(f"- {title}")
