@@ -23,7 +23,19 @@ except Exception:  # pragma: no cover - helpful error if pyyaml isn't installed
     print("Error: PyYAML is required. Install with: pip install pyyaml", file=sys.stderr)
     raise
 
+def render_item_md(item):
+    title = item.get("title", "Untitled")
+    link = item.get("link", "")
 
+    if item.get("access") == "free":
+        # Assume link is a GitHub Pages URL
+        return f"- [{title}]({link})"
+    elif item.get("access") == "paid":
+        # Assume link is a Google Drive URL
+        return f"- [{title}]({link})"
+    else:
+        return f"- {title}"
+    
 def render_item_md(item: dict) -> str:
     lines = []
     title = item.get("title") or item.get("filename") or item.get("id")
