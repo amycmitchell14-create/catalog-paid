@@ -29,9 +29,9 @@ def render_item_md(item):
     meta = []
 
 # Build the link line based on access type
-    if item.get("access") == "free":
+    if item.get("access") == "paid":
         line = f"- [{title}]({link})"
-    elif item.get("access") == "paid":
+    elif item.get("access") == "free":
         line = f"- [{title}]({link})"
     else:
         line = f"- {title}"
