@@ -30,7 +30,7 @@ def render_item_md(item):
 
 # Build the link line based on access type
     if item.get("access") == "paid":
-        line = f"- [{title}]({link})"
+        line = f"- [{title}]({link}) 🔒"
     elif item.get("access") == "free":
         line = f"- [{title}]({link})"
     else:
