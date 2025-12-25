@@ -1,6 +1,6 @@
 # catalog
 
-Newsletter content catalog for PM resources
+Newsletter content catalog for PM resources. Subscribe on Substack for playbooks and guides: https://amycmitchell.substack.com/
 
 **Maintainer:** Amy <amycmitchell14@gmail.com>
 
