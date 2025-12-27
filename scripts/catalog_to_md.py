@@ -164,7 +164,7 @@ lines = []
 
 # adding FAQ and info
 for item in catalog:
-    lines.append(f"### 📄 {item["title"]}")
+    lines.append(f"### 📄 {item['title']}")
     lines.append(f"*{item['description']}*")
     lines.append(f"**Type:** {item['type']}, **Version:** {item['version']}, "
                  f"**Status:** {item['status']}, **Access:** {item['access']}")
