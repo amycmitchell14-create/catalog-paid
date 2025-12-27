@@ -176,8 +176,6 @@ for item in catalog:
             lines.append(f"🔗 [Read FAQ]({item['link']})")
         else:
             lines.append(f"📄 [Download PDF]({item['link']})")
-    if 'cta' in item and item['cta']:
-        lines.append(f"\n{item['cta']}")
     lines.append("")  # blank line between entries
 
 
